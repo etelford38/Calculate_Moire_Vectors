@@ -11,7 +11,6 @@ import sys
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg, NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
 import matplotlib
-
 import math
 font = {'family' : 'Arial',
         'weight' : 'normal',
