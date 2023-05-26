@@ -1,7 +1,5 @@
 # Calculate_Moire_Vectors
-A GUI for determing the moire vectors produced between two sets of real-space lattice vectors.
-Written by Evan Telord (ejt2133@columbia.edu)
-
+A GUI for determing the moire vectors produced between two sets of real-space lattice vectors. Written by Evan Telord (ejt2133@columbia.edu)
 
 1) Download and run the file "Calculate_moire_GUI_rt_vectors.py" or "Calculate_moire_GUI_xy_vectors.py".
 
