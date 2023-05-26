@@ -7,7 +7,7 @@ Note: "Calculate_moire_GUI_rt_vectors.py" accepts vector inputs in the form of v
 
 2) A GUI will pop up requesting the input vector information. You will need to enter two sets of vectors. Each set corresponds to the real-space lattice vectors of the underlying crystals. You will also need to enter the desired twist angle between the sets of real-space lattice vectors.
 3) Click "Calculate Moire Vectors" to calculate the moire vectors.
-4) The moire vectors informtion will be printed in the GUI below the "Calculate Moire Vectors" button. 
+4) The moire vector information will be printed in the GUI below the "Calculate Moire Vectors" button. 
 5) Three plots will be generated consisting of quivers plots of left: the real-space lattice vectors twisted with respect to one another, middle: the reciprocal-space lattice vectors twisted with respect to one another along with the calculate moire reciprocal vectors, right: calculated real-space moire lattice vectors.
 
 Note: the code works perfectly for angles below any possible symmetry operations. For angles above the lowest symmetry operations, it should work for most use cases, but it hasn't been tested thoroughly. To deal with angles larger than the lowest symmetry operation, the code calculates the rotational symmetry of the reciprocal vectors, calculates the symmetry operation angle, and then performs the symmetry operation to shift the angle back to an appropriate value for the moire-vector calculation. For example, when calculating the moire lattice bewteen two square lattices, the code will detect the 4-fold rotational symmetry and, whenever the angle is above 45 degrees, will rotate the angle back by 90 degrees to perform the symmetry operation.
